@@ -1,4 +1,7 @@
-public static String strCompression (String str){
+ package com.cc.chapter1;
+
+public class Solution06 {
+	public static String strCompression (String str){
 		int length = str.length();
 		int compressedLength = count(str);
 		if (compressedLength >= length)
@@ -28,3 +31,8 @@ public static String strCompression (String str){
 		}
 		return compressedLength;
 	}
+	public static void main (String args[]){
+		String str ="aabccccaaa";
+		System.out.println(strCompression(str));
+	}
+}

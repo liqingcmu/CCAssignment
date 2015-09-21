@@ -1,4 +1,7 @@
-public static boolean isPalindromePermutation(String str){
+package com.cc.chapter1;
+
+public class Solution04 {
+	public static boolean isPalindromePermutation(String str){
 		int oddCount = 0;
 		char[] arrayOfStr = str.toCharArray();
 		int[] table = new int[Character.getNumericValue('z')-Character.getNumericValue('a')+1];
@@ -26,3 +29,4 @@ public static boolean isPalindromePermutation(String str){
 			return val - 'A';
 		return -1;
 	}
+}

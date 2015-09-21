@@ -1,4 +1,11 @@
-/**
+package com.cc.chapter2;
+
+import java.util.LinkedList;
+
+import com.cc.chapter2.Solution01.LinkedListNode;
+
+public class Solution02 {
+	/**
 	 * Return kth to Last
 	 * Assume if k = 1, return the last element of the linked list.*/
 	public class LinkedListNode {  
@@ -37,3 +44,4 @@
 		}
 		return ptr2;
 	}
+}

@@ -1,4 +1,7 @@
-/**
+package com.cc.chapter1;
+
+public class Solution07 {
+	/**
 	 * To save the unnecessary O(N) memory, we can implement swap index by index.[1]
 	temp = top;
 	top = left;
@@ -21,3 +24,4 @@
 			}
 		}
 	}
+}

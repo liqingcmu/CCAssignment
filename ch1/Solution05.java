@@ -1,4 +1,7 @@
-public static boolean oneAway(String str1, String str2){
+package com.cc.chapter1;
+
+public class Solution05 {
+	public static boolean oneAway(String str1, String str2){
 		int length1 = str1.length();
 		int length2 = str2.length();
 		if (length1 == length2) //replacement
@@ -40,3 +43,9 @@ public static boolean oneAway(String str1, String str2){
 		}
 		return true;
 	}
+	public static void main(String args[]){
+		String str1 = "pale";
+		String str2 = "pdld";
+		System.out.println(oneAway(str1,str2));
+	}
+}

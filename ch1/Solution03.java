@@ -1,4 +1,7 @@
-public static String replaceSpaces(String str, int number){
+package com.cc.chapter1;
+
+public class Solution03 {
+	public static String replaceSpaces(String str, int number){
 		String[] seperateStrings = str.trim().split("\\s+");
 		int length = seperateStrings.length;
 		for (int i = 0; i < length-1; i++){
@@ -10,3 +13,7 @@ public static String replaceSpaces(String str, int number){
 		}
 		return newString;
 	}
+	public static void main(String args[]){
+		System.out.println(replaceSpaces("Hello World Liqing",16));
+	}
+}

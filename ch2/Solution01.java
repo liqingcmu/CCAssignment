@@ -1,4 +1,11 @@
-public class LinkedListNode {  
+package com.cc.chapter2;
+
+import java.util.HashSet;
+
+public class Solution01 {
+	/**
+	 * Remove duplicates from unsorted linked list.*/
+	public class LinkedListNode {  
 	    public int data;  
 	    public LinkedListNode next;  
 
@@ -37,3 +44,5 @@ public class LinkedListNode {
 			ptr1 = ptr1.next;
 		}
 	}
+	
+}

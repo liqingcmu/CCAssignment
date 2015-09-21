@@ -1,4 +1,7 @@
-/**
+package com.cc.chapter1;
+
+public class Solution09 {
+	/**
 	 * The point of solving the problem is to find that:
 		yx is always a substring of xyxy. What we need to do is to construct xyxy.
 		x and y are the seperate parts that constitutes of the original string. 
@@ -11,3 +14,4 @@
 		}
 		return false;
 	}
+}
